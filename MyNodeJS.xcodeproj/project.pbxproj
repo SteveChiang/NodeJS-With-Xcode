@@ -1,0 +1,172 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		AA54DCB5163F74BC00F15641 /* index.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		AA54DCB6163F74BC00F15641 /* requestHandlers.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = requestHandlers.js; sourceTree = "<group>"; };
+		AA54DCB7163F74BC00F15641 /* router.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = router.js; sourceTree = "<group>"; };
+		AA54DCB8163F74BC00F15641 /* server.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = server.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		AA54DCA2163F739300F15641 = {
+			isa = PBXGroup;
+			children = (
+				AA54DCB4163F74BC00F15641 /* src */,
+			);
+			sourceTree = "<group>";
+		};
+		AA54DCB4163F74BC00F15641 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AA54DCB5163F74BC00F15641 /* index.js */,
+				AA54DCB6163F74BC00F15641 /* requestHandlers.js */,
+				AA54DCB7163F74BC00F15641 /* router.js */,
+				AA54DCB8163F74BC00F15641 /* server.js */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		AA54DCA9163F739300F15641 /* MyNodeJS */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = AA54DCAC163F739300F15641 /* Build configuration list for PBXLegacyTarget "MyNodeJS" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/node;
+			dependencies = (
+			);
+			name = MyNodeJS;
+			passBuildSettingsInEnvironment = 1;
+			productName = MyNodeJS;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		AA54DCA4163F739300F15641 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Steve;
+			};
+			buildConfigurationList = AA54DCA7163F739300F15641 /* Build configuration list for PBXProject "MyNodeJS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA54DCA2163F739300F15641;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA54DCA9163F739300F15641 /* MyNodeJS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		AA54DCAA163F739300F15641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA54DCAB163F739300F15641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA54DCAD163F739300F15641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA54DCAE163F739300F15641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA54DCA7163F739300F15641 /* Build configuration list for PBXProject "MyNodeJS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA54DCAA163F739300F15641 /* Debug */,
+				AA54DCAB163F739300F15641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA54DCAC163F739300F15641 /* Build configuration list for PBXLegacyTarget "MyNodeJS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA54DCAD163F739300F15641 /* Debug */,
+				AA54DCAE163F739300F15641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA54DCA4163F739300F15641 /* Project object */;
+}
